@@ -1,0 +1,82 @@
+[2020-09-14T12:48:35,565][INFO ][o.e.n.Node               ] [DESKTOP-3BKGR3T] version[7.9.0], pid[8540], build[default/zip/a479a2a7fce0389512d6a9361301708b92dff667/2020-08-11T21:36:48.204330Z], OS[Windows 10/10.0/amd64], JVM[AdoptOpenJDK/OpenJDK 64-Bit Server VM/14.0.1/14.0.1+7]
+[2020-09-14T12:48:35,576][INFO ][o.e.n.Node               ] [DESKTOP-3BKGR3T] JVM home [D:\Study\Angular\elasticsearch-7.9.0-windows-x86_64\elasticsearch-7.9.0\jdk]
+[2020-09-14T12:48:35,577][INFO ][o.e.n.Node               ] [DESKTOP-3BKGR3T] JVM arguments [-Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -XX:+ShowCodeDetailsInExceptionMessages, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dio.netty.allocator.numDirectArenas=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.locale.providers=SPI,COMPAT, -Xms1g, -Xmx1g, -XX:+UseG1GC, -XX:G1ReservePercent=25, -XX:InitiatingHeapOccupancyPercent=30, -Djava.io.tmpdir=C:\Users\zuoxi\AppData\Local\Temp\elasticsearch, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -Xlog:gc*,gc+age=trace,safepoint:file=logs/gc.log:utctime,pid,tags:filecount=32,filesize=64m, -XX:MaxDirectMemorySize=536870912, -Delasticsearch, -Des.path.home=D:\Study\Angular\elasticsearch-7.9.0-windows-x86_64\elasticsearch-7.9.0, -Des.path.conf=D:\Study\Angular\elasticsearch-7.9.0-windows-x86_64\elasticsearch-7.9.0\config, -Des.distribution.flavor=default, -Des.distribution.type=zip, -Des.bundled_jdk=true]
+[2020-09-14T12:48:39,976][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [aggs-matrix-stats]
+[2020-09-14T12:48:39,976][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [analysis-common]
+[2020-09-14T12:48:39,976][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [constant-keyword]
+[2020-09-14T12:48:39,976][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [flattened]
+[2020-09-14T12:48:39,977][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [frozen-indices]
+[2020-09-14T12:48:39,977][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [ingest-common]
+[2020-09-14T12:48:39,977][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [ingest-geoip]
+[2020-09-14T12:48:39,977][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [ingest-user-agent]
+[2020-09-14T12:48:39,977][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [kibana]
+[2020-09-14T12:48:39,978][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [lang-expression]
+[2020-09-14T12:48:39,978][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [lang-mustache]
+[2020-09-14T12:48:39,978][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [lang-painless]
+[2020-09-14T12:48:39,979][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [mapper-extras]
+[2020-09-14T12:48:39,979][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [parent-join]
+[2020-09-14T12:48:39,979][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [percolator]
+[2020-09-14T12:48:39,979][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [rank-eval]
+[2020-09-14T12:48:39,980][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [reindex]
+[2020-09-14T12:48:39,980][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [repository-url]
+[2020-09-14T12:48:39,980][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [search-business-rules]
+[2020-09-14T12:48:39,981][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [searchable-snapshots]
+[2020-09-14T12:48:39,981][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [spatial]
+[2020-09-14T12:48:39,982][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [tasks]
+[2020-09-14T12:48:39,982][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [transform]
+[2020-09-14T12:48:39,982][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [transport-netty4]
+[2020-09-14T12:48:39,983][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [vectors]
+[2020-09-14T12:48:39,983][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [wildcard]
+[2020-09-14T12:48:39,983][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [x-pack-analytics]
+[2020-09-14T12:48:39,983][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [x-pack-async]
+[2020-09-14T12:48:39,984][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [x-pack-async-search]
+[2020-09-14T12:48:39,984][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [x-pack-autoscaling]
+[2020-09-14T12:48:39,985][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [x-pack-ccr]
+[2020-09-14T12:48:39,986][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [x-pack-core]
+[2020-09-14T12:48:39,986][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [x-pack-data-streams]
+[2020-09-14T12:48:39,986][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [x-pack-deprecation]
+[2020-09-14T12:48:39,987][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [x-pack-enrich]
+[2020-09-14T12:48:39,987][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [x-pack-eql]
+[2020-09-14T12:48:39,987][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [x-pack-graph]
+[2020-09-14T12:48:39,988][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [x-pack-identity-provider]
+[2020-09-14T12:48:39,988][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [x-pack-ilm]
+[2020-09-14T12:48:39,988][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [x-pack-logstash]
+[2020-09-14T12:48:39,989][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [x-pack-ml]
+[2020-09-14T12:48:39,989][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [x-pack-monitoring]
+[2020-09-14T12:48:39,989][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [x-pack-ql]
+[2020-09-14T12:48:39,990][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [x-pack-rollup]
+[2020-09-14T12:48:39,990][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [x-pack-security]
+[2020-09-14T12:48:39,990][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [x-pack-sql]
+[2020-09-14T12:48:39,991][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [x-pack-stack]
+[2020-09-14T12:48:39,991][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [x-pack-voting-only-node]
+[2020-09-14T12:48:39,991][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] loaded module [x-pack-watcher]
+[2020-09-14T12:48:39,992][INFO ][o.e.p.PluginsService     ] [DESKTOP-3BKGR3T] no plugins loaded
+[2020-09-14T12:48:40,180][INFO ][o.e.e.NodeEnvironment    ] [DESKTOP-3BKGR3T] using [1] data paths, mounts [[(D:)]], net usable_space [201gb], net total_space [237.8gb], types [NTFS]
+[2020-09-14T12:48:40,180][INFO ][o.e.e.NodeEnvironment    ] [DESKTOP-3BKGR3T] heap size [1gb], compressed ordinary object pointers [true]
+[2020-09-14T12:48:40,284][INFO ][o.e.n.Node               ] [DESKTOP-3BKGR3T] node name [DESKTOP-3BKGR3T], node ID [yYbf5xioTISoGSInMRnYSA], cluster name [elasticsearch]
+[2020-09-14T12:48:42,414][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [DESKTOP-3BKGR3T] [controller/14600] [Main.cc@114] controller (64 bit): Version 7.9.0 (Build 2639177a4c3ad6) Copyright (c) 2020 Elasticsearch BV
+[2020-09-14T12:48:42,791][INFO ][o.e.x.s.a.s.FileRolesStore] [DESKTOP-3BKGR3T] parsed [0] roles from file [D:\Study\Angular\elasticsearch-7.9.0-windows-x86_64\elasticsearch-7.9.0\config\roles.yml]
+[2020-09-14T12:48:43,449][INFO ][o.e.d.DiscoveryModule    ] [DESKTOP-3BKGR3T] using discovery type [zen] and seed hosts providers [settings]
+[2020-09-14T12:48:43,732][WARN ][o.e.g.DanglingIndicesState] [DESKTOP-3BKGR3T] gateway.auto_import_dangling_indices is disabled, dangling indices will not be automatically detected or imported and must be managed manually
+[2020-09-14T12:48:43,960][INFO ][o.e.n.Node               ] [DESKTOP-3BKGR3T] initialized
+[2020-09-14T12:48:43,960][INFO ][o.e.n.Node               ] [DESKTOP-3BKGR3T] starting ...
+[2020-09-14T12:48:44,097][INFO ][o.e.t.TransportService   ] [DESKTOP-3BKGR3T] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2020-09-14T12:48:44,315][WARN ][o.e.b.BootstrapChecks    ] [DESKTOP-3BKGR3T] the default discovery settings are unsuitable for production use; at least one of [discovery.seed_hosts, discovery.seed_providers, cluster.initial_master_nodes] must be configured
+[2020-09-14T12:48:44,316][INFO ][o.e.c.c.Coordinator      ] [DESKTOP-3BKGR3T] cluster UUID [uL3mkgubSY6MTQ4WXvI5GA]
+[2020-09-14T12:48:44,322][INFO ][o.e.c.c.ClusterBootstrapService] [DESKTOP-3BKGR3T] no discovery configuration found, will perform best-effort cluster bootstrapping after [3s] unless existing master is discovered
+[2020-09-14T12:48:44,410][INFO ][o.e.c.s.MasterService    ] [DESKTOP-3BKGR3T] elected-as-master ([1] nodes joined)[{DESKTOP-3BKGR3T}{yYbf5xioTISoGSInMRnYSA}{ItXwqRHiTqi_MlzA8u17sA}{127.0.0.1}{127.0.0.1:9300}{dilmrt}{ml.machine_memory=34306957312, xpack.installed=true, transform.node=true, ml.max_open_jobs=20} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 7, version: 80, delta: master node changed {previous [], current [{DESKTOP-3BKGR3T}{yYbf5xioTISoGSInMRnYSA}{ItXwqRHiTqi_MlzA8u17sA}{127.0.0.1}{127.0.0.1:9300}{dilmrt}{ml.machine_memory=34306957312, xpack.installed=true, transform.node=true, ml.max_open_jobs=20}]}
+[2020-09-14T12:48:44,486][INFO ][o.e.c.s.ClusterApplierService] [DESKTOP-3BKGR3T] master node changed {previous [], current [{DESKTOP-3BKGR3T}{yYbf5xioTISoGSInMRnYSA}{ItXwqRHiTqi_MlzA8u17sA}{127.0.0.1}{127.0.0.1:9300}{dilmrt}{ml.machine_memory=34306957312, xpack.installed=true, transform.node=true, ml.max_open_jobs=20}]}, term: 7, version: 80, reason: Publication{term=7, version=80}
+[2020-09-14T12:48:44,533][INFO ][o.e.h.AbstractHttpServerTransport] [DESKTOP-3BKGR3T] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2020-09-14T12:48:44,534][INFO ][o.e.n.Node               ] [DESKTOP-3BKGR3T] started
+[2020-09-14T12:48:44,650][INFO ][o.e.l.LicenseService     ] [DESKTOP-3BKGR3T] license [5963ab88-3bd6-4ab5-a378-960481309d5a] mode [basic] - valid
+[2020-09-14T12:48:44,651][INFO ][o.e.x.s.s.SecurityStatusChangeListener] [DESKTOP-3BKGR3T] Active license is now [BASIC]; Security is disabled
+[2020-09-14T12:48:44,656][INFO ][o.e.g.GatewayService     ] [DESKTOP-3BKGR3T] recovered [2] indices into cluster_state
+[2020-09-14T12:48:45,073][INFO ][o.e.c.r.a.AllocationService] [DESKTOP-3BKGR3T] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[clientdb][0]]]).
+[2020-09-14T13:07:19,573][INFO ][o.e.c.m.MetadataMappingService] [DESKTOP-3BKGR3T] [clientdb/EtHBKBcbRVSR-DiISXFS3g] update_mapping [client]
+[2020-09-14T13:18:40,626][INFO ][o.e.x.m.p.NativeController] [DESKTOP-3BKGR3T] Native controller process has stopped - no new native processes can be started
+[2020-09-14T13:18:40,629][INFO ][o.e.n.Node               ] [DESKTOP-3BKGR3T] stopping ...
+[2020-09-14T13:18:40,631][INFO ][o.e.x.w.WatcherService   ] [DESKTOP-3BKGR3T] stopping watch service, reason [shutdown initiated]
+[2020-09-14T13:18:40,632][INFO ][o.e.x.w.WatcherLifeCycleService] [DESKTOP-3BKGR3T] watcher has stopped and shutdown
+[2020-09-14T13:18:40,998][INFO ][o.e.n.Node               ] [DESKTOP-3BKGR3T] stopped
+[2020-09-14T13:18:40,998][INFO ][o.e.n.Node               ] [DESKTOP-3BKGR3T] closing ...
+[2020-09-14T13:18:41,006][INFO ][o.e.n.Node               ] [DESKTOP-3BKGR3T] closed
