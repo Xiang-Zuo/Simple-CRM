@@ -1,0 +1,52 @@
+<!--<p>input works!</p>-->
+<form *ngIf="isLogin" [formGroup]="newClientForm" (ngSubmit)="onSubmit(newClientForm.value)">
+    <div class="basicInfo">
+    <div>
+      <label>
+        Name:
+      </label>
+      <input [id]="'name'" [type]="'text'" [formControlName]="'name'">
+    </div>
+    <div>
+      <label>
+        Gender:
+      </label>
+      <input [id]="'gender'" [type]="'text'" [formControlName]="'gender'">
+    </div>
+    <div>
+      <label>
+        Age:
+      </label>
+      <input [id]="'age'" [type]="'text'" [formControlName]="'age'">
+    </div>
+  </div>
+  <div class="additionalInfo">
+    <div>
+      <label>
+        Citizenship:
+      </label>
+      <input [id]="'citizenship'" [type]="'text'" [formControlName]="'citizenship'">
+    </div>
+    <div>
+      <label>
+        Email:
+      </label>
+      <input [id]="'email'" [type]="'text'" [formControlName]="'email'">
+    </div>
+    <div>
+      <label>
+        Phone Number:
+      </label>
+      <input [id]="'phone'" [type]="'text'" [formControlName]="'phone'">
+    </div>
+    <div>
+      <label>
+        Address:
+      </label>
+      <input [id]="'address'" [type]="'text'" [formControlName]="'address'">
+    </div>
+  </div>
+
+  <button [ngClass]="'button'" [type]="'submit'">Add</button>
+</form>
+<div *ngIf="!isLogin">Please Log in!</div>

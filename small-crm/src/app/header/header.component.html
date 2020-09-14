@@ -1,0 +1,8 @@
+<div>
+  <img src = "assets/images/logo.png">
+  <nav>
+    <a *ngFor="let link of links" [routerLink]="link.href" [queryParams]="{user: 'admin'}"  routerLinkActive="active">{{link.name}}</a>
+<!--    <a [routerLink]="['/input']" >New Client</a>-->
+  </nav>
+  <a [ngClass]="'login'" [routerLink]="'/account/login'">Log in</a>
+</div>

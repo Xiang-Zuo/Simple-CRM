@@ -1,0 +1,27 @@
+<table border="0" cellpadding="0">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Gender</th>
+      <th>Age</th>
+      <th>Citizenship</th>
+      <th>Email</th>
+      <th>Phone</th>
+      <th>Address</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let p of infors, let i = index">
+      <td>{{i + 1}}</td>
+      <td>{{p.client_name}}</td>
+      <td>{{p.client_gender}}</td>
+      <td>{{p.client_age}}</td>
+      <td>{{p.client_citizenship}}</td>
+      <td>{{p.client_email}}</td>
+      <td>{{p.client_phone}}</td>
+      <td>{{p.client_address}}</td>
+    </tr>
+  </tbody>
+</table>
+<div *ngIf="!hasData">No Data Available</div>

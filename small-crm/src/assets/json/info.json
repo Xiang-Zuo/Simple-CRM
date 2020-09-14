@@ -1,0 +1,24 @@
+{
+  "code": 200,
+  "msg": "Get info Success",
+  "data": [
+    {
+      "Name": "Jason",
+      "Gender": "Male",
+      "Age": 34,
+      "Citizenship": "Canadian",
+      "Email": "jason@gmail.com",
+      "Phone": "4160000000",
+      "Address": "XX Baseline Rd, Ottawa, ON"
+    },
+    {
+      "Name": "Alex",
+      "Gender": "Male",
+      "Age": 30,
+      "Citizenship": "American",
+      "Email": "alex@gmail.com",
+      "Phone": "5100000000",
+      "Address": "193rd St, New York"
+    }
+  ]
+}
